@@ -21,3 +21,4 @@ Solve the problems in `math_tasks.pdf`. You can also find the original .tex file
 # Other info
 1. Should you need any clarification feel free to contact me at `kiss_oliver@phd.ceu.edu`
 2. The deadline for this assignment is 26. Aug. 2018 4pm CEST.
+3. Minimum pass requirements: Solve 20 mathematics problems correctly. Solve all IT tasks correctly.
