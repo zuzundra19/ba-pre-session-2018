@@ -16,3 +16,8 @@
 
 
 # II. Math tasks
+Solve the problems in `math_tasks.pdf`. You can also find the original .tex file in case you want to work in LaTeX. You can submit your solutions in LaTeX, Word, pdf or as scanned image files in case you solve the tasks on paper. Please place your solutions within `lastname_firstname/Math/`.
+
+# Other info
+1. Should you need any clarification feel free to contact me at `kiss_oliver@phd.ceu.edu`
+2. The deadline for this assignment is 26. Aug. 2018 4pm CEST.
