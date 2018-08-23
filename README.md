@@ -1,3 +1,3 @@
 # Mathematics and Informatics Pre-session for Business Analytics
 
-This is the GitHub page of the Mathematics and Informatics Pre-session for Business Analytics CEU course. You will find all the material and the course assignments here.
+This is the GitHub page of the Mathematics and Informatics Pre-session for Business Analytics CEU course. You will find all the material and the course assignments here. If you are looking for the opt-out exam, check `opt_out_exam/problems.md`.
