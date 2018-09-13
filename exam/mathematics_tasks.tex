@@ -1,0 +1,170 @@
+\documentclass[10pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array, enumerate, gensymb}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+ 
+\title{Mathematics problems}
+\date{}
+\maketitle
+
+ \section{Elementary algebra}
+ 
+\begin{problem}{1.1}
+Simplify $$\frac{x^{n+2}}{x^{n-2}}$$
+\end{problem}
+
+\begin{problem}{1.2}
+Solve for $x$:
+$$x^{-1}*8=2$$
+\end{problem}
+
+\begin{problem}{1.3}
+Calculate the missing value. If $a=5$ and $b=10$ then $(a^b)^0=\dots$
+\end{problem}
+
+\begin{problem}{1.4}
+Calculate
+$$\frac{\sqrt{4x}}{\sqrt{x}}$$
+\end{problem}
+
+\begin{problem}{1.5}
+Solve for $x$:
+$$x^2+(x+1)^2=(x+2)^2$$
+\end{problem}
+
+\begin{problem}{1.6}
+Find the solution set for the inequality below:
+$$2^x>1024$$
+\end{problem}
+
+\section{Functions of one variable}
+
+\begin{problem}{2.1 (Based on SYD 2.5.6)}
+The relationship between temperatures measured in Celsius and Fahrenheit is linear. 0\degree C is equivalent to 32\degree F and 100\degree C is the same as 212\degree F.
+ Which temperature is measured by the same number on both scales?
+\end{problem}
+
+\begin{problem}{2.2}
+Take the following function $f(x)=5x+4$. Find y if $f(3)=y$.
+\end{problem}
+
+\begin{problem}{2.3}
+Find all values of x that satisfy:
+$$x^2-4x+3=0$$
+\end{problem}
+
+\begin{problem}{2.4}
+Assume that you invest 10 HUF for 90 years with a yearly compound interest of 2\%. How much money do you receive 90 years later?
+\end{problem}
+
+\begin{problem}{2.5}
+Calculate the following value
+$$e^{\ln 5}$$
+\end{problem}
+
+\section{Calculus}
+
+\begin{problem}{3.1}
+Calculate the following sum
+$$\sum\limits_{i=1}^{\infty} \frac{12}{6^i}$$
+\end{problem}
+
+\begin{problem}{3.2}
+Find the following limit
+$$\lim\limits_{x \rightarrow 1}\frac{6^{1-x}}{x}$$
+\end{problem}
+
+\begin{problem}{3.3}
+Find the slope of the function $f(x)=x^5-8$ at $x=-3$.
+\end{problem}
+
+\begin{problem}{3.4}
+Find the following derivative
+$$\frac{\mathrm{d}}{\mathrm{d}\, x} \frac{x^3+2x-1}{x-2}$$
+\end{problem}
+
+\begin{problem}{3.5}
+Find the following second derivative
+ $$\frac{\mathrm{d^2}}{\mathrm{d}\, x^2} 4x^4+4x^2$$
+\end{problem}
+
+\begin{problem}{3.6}
+Find the following derivative:
+$$\frac{\mathrm{d}}{\mathrm{d}\, x} \frac{\ln x}{e^x}$$
+\end{problem}
+
+\begin{problem}{3.7}
+Consider the following function. Find all of its stationary points and classify them as local minima, local maxima or inflection points. Also decide whether it is convex or concave. If it has one or more inflection points then define where it is locally concave or locally convex. (You should create a table like we did in class)
+$$f(x)=3x^2-5x+2$$
+\end{problem}
+
+\begin{problem}{3.8}
+Let $f(x,y)=x^2+y^3$. Calculate $f(2,3)$
+\end{problem}
+
+\begin{problem}{3.9}
+Consider the following function: $f(x,y)=\ln(x-y)$. For what combinations of $x$ and $y$ is this function defined?
+\end{problem}
+
+\begin{problem}{3.10}
+Find the following partial derivative:
+$$\frac{\partial}{\partial \, x} x^5+xy^3$$
+\end{problem}
+
+\begin{problem}{3.11}
+Find the local maxima or minima of the following function:
+$$f(x,y)=x^2y^2+10$$
+\end{problem}
+
+\begin{problem}{3.12}
+Solve the following constrained optimization problem using Lagrange's method:
+$\max x^2y^2$ s.t. $x+y=10$
+\end{problem}
+
+\section{Linear algebra}
+
+\begin{problem}{4.1}
+Take the following matrices:
+$$A=\begin{bmatrix} 2 & 6\\ 5 & 1 \\ 1 & 9\end{bmatrix}$$
+$$B=\begin{bmatrix} 1 & 1 & 7\\2 & 8 & 2\end{bmatrix}$$
+What is $A \cdot B$?
+\end{problem}
+
+\begin{problem}{4.2}
+Take the following matrices:
+$$A=\begin{bmatrix} 2 & 2\\ 4 & 6 \\ 1 & 3\end{bmatrix}$$
+$$B=\begin{bmatrix} 1 & 9 & 1\\2 & 1 & 2\end{bmatrix}$$
+What is $B \cdot A$?
+\end{problem}
+
+\begin{problem}{4.3}
+What is the transpose of the following matrix?
+$$\begin{bmatrix}7.1 & 9.1 & 4.7\\ 2 & 7.8 & 1.1 \\ 4 & 4.44 & 0\end{bmatrix}$$
+\end{problem}
+
+\begin{problem}{4.4}
+Calculate the determinant of
+$$\begin{bmatrix}1 & 9 \\ 2 & 8 \end{bmatrix} $$
+\end{problem}
+
+\section{Probability theory}
+
+\begin{problem}{5.1}
+You run an experiment where you throw a (regular, 6 sided) dice twice. The first number you get will be the first digit of a two-digit number, while the second number you get will be the second digit of the same two-digit number. What is the sample space of your experiment?
+\end{problem}
+
+\begin{problem}{5.2}
+Assume that in a certain country 1\% of the population uses a certain drug. You have a way to test drug use, which will give you a positive result in 99\% of the cases where the individual is indeed a drug user and a negative result in 99.5\% of the cases where the individual doesn't use the drug. What is the probability that a randomly selected citizen will have a positive drug test?
+\end{problem}
+
+\begin{problem}{5.3}
+Assume that in a certain country 1\% of the population uses a certain drug. You have a way to test drug use, which will give you a positive result in 99\% of the cases where the individual is indeed a drug user and a negative result in 99.5\% of the cases where the individual doesn't use the drug. What is the probability that someone with a positive drug test is indeed a drug user?
+\end{problem}
+\end{document}
